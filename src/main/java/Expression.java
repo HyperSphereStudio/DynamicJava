@@ -1,4 +1,3 @@
-import org.redfx.strange.local.StoredQuantumExecutor;
 
 import java.lang.reflect.Method;
 
@@ -344,7 +343,7 @@ public abstract class Expression {
             for(int i = 0; i < parameters.length; ++i){
                 buffer[i] = parameters[i].invoke(heap);
             }
-            return e.invoke((StoredQuantumExecutor) executor.invoke(heap), heap);
+            return e.invoke(executor.invoke(heap), heap);
         }
     }
 
