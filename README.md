@@ -4,10 +4,11 @@ Expression Tree for dynamic java implementation (Java's version of C#'s Expressi
 
 Example:
 
-//Created by Johnathan Bizzano
+
 public static void main(String[] args) throws Exception {
         
         //Dynamically creates the following code
+        //Created by Johnathan Bizzano
         /**
          * lambda(int param1, int param2){
          *      if(param2 > param1){
